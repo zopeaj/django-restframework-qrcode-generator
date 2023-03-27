@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http.response import HTTPResponse, JsonResponse
+from django.http import HttpResponse, JsonResponse
 from django.views.decorator_csrf import csrf_exempt
 from rest_framework.views import APIView
 from rest_framework.decorator.views import api_view
